@@ -879,12 +879,11 @@ a {
   justify-content: center;
   align-items: center;
   width: 370px;
+  max-width: 370px;
   gap: 24px;
-  flex-direction: column;
   padding-top: 24px;
 }
 .gallery__list {
-  width: 370px;
 }
 .gallery__item {
   margin: 0 10px;
@@ -892,7 +891,7 @@ a {
 }
 .gallery-button {
   display: flex;
-
+  margin: auto;
   flex-direction: column;
   align-items: center;
   padding-top: 45px;
@@ -900,6 +899,7 @@ a {
 @media screen and (min-width: 1200px) {
   .gallery-button {
     padding-top: 56px;
+    margin: auto;
   }
   .gallery {
     margin: auto;
@@ -916,6 +916,7 @@ a {
     gap: 32px;
     width: 1199px;
     padding-top: 56px;
+    max-width: 1199px;
   }
 
   .gallery__image {
