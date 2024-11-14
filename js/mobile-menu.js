@@ -22,6 +22,19 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
+function toggleAnswer(element) {
+  const answer = element.nextElementSibling;
+  const buttonImg = element.querySelector(".toggle-button img"); 
+
+  if (answer.style.display === "none" || answer.style.display === "") {
+    answer.style.display = "block";
+    buttonImg.src = "/image/faq/navigation up.png"; 
+  } else {
+    answer.style.display = "none";
+    buttonImg.src = "/image/faq/navigation up (1).png"; 
+  }
+}
+
 
 
 

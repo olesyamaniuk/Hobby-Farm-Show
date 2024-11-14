@@ -1,5 +1,5 @@
 $(function () {
-  $('.play__list').slick({
+  $('.gallery__container').slick({
     dots: true,
     infinite: true,
     slidesToShow: 1,
@@ -13,7 +13,6 @@ $(function () {
     cssEase: 'linear',
     nextArrow: '.play__button',
     prevArrow: '.play__button',
-    
   });
 });
 
